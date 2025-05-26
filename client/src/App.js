@@ -9,7 +9,7 @@ function App() {
 
     useEffect(() => {
         fetchTrafficData();
-        const ws = new WebSocket(`wss://${window.location.host}/realtime`);
+       const ws = new WebSocket(`wss://${window.location.host}/realtime`);
         
         ws.onmessage = (event) => {
             const data = JSON.parse(event.data);
