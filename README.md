@@ -24,4 +24,4 @@ A cloud-based web application with built-in DDoS detection and mitigation capabi
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/ddos-protection-app.git
+   git clone https://github.com/yatish-debug/ddos-protection-app.git
