@@ -23,13 +23,13 @@ A cloud-based web application with built-in DDoS detection and mitigation capabi
 ## Installation
 
   Clone the repository:
-  git clone https://github.com/yatish-debug/ddos-protection-app.git
-  cd ddos-protection-app
-  cd client && npm install
-  cd ../server && npm install
-  @ Create .env files in both client and server directories with required environment variables
+1. git clone https://github.com/yatish-debug/ddos-protection-app.git
+2.  cd ddos-protection-app
+3.  cd client && npm install
+4.  cd ../server && npm install
+5.  @ Create .env files in both client and server directories with required environment variables
  
-  docker-compose up --build
+6.  docker-compose up --build
   ##  Configuration
      Configure these environment variables:
      server.env
