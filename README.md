@@ -23,6 +23,7 @@ A cloud-based web application with built-in DDoS detection and mitigation capabi
 ## Installation
 
   Clone the repository:
+  ```
 1. git clone https://github.com/yatish-debug/ddos-protection-app.git
 2.  cd ddos-protection-app
 3.  cd client && npm install
@@ -30,6 +31,7 @@ A cloud-based web application with built-in DDoS detection and mitigation capabi
 5.  @ Create .env files in both client and server directories with required environment variables
  
 6.  docker-compose up --build
+
   ##  Configuration
      Configure these environment variables:
      server.env
@@ -43,6 +45,7 @@ A cloud-based web application with built-in DDoS detection and mitigation capabi
          REACT_APP_API_URL=http://localhost:3000
          REACT_APP_WS_URL=ws://localhost:3000
      }
+```
 ## Usage
 1.Access the application at http://localhost:3000
 
